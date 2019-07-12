@@ -1,5 +1,5 @@
-set wifi_1 "scanner-"
-set wifi_2 "scanner-"
+set wifi_1="scanner-"
+set wifi_2="scanner-"
 
 
 netsh wlan show interfaces | find /i %wifi_1%
